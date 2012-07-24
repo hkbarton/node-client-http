@@ -1,0 +1,25 @@
+{
+    "name": "client-http",
+    "version": "0.0.1",
+    "description": "Node client HTTP request wrapper for easy to make client HTTP request",
+    "keywords": [
+        "http",
+        "https",
+        "proxy",
+        "cookie"
+    ],
+    "homepage": "https://github.com/hkbarton/node-client-http/",
+    "author": "Edwin Huang <hkbarton@gmail.com>",
+    "main": "./index.js",
+    "licenses": {
+        "type": "The MIT License",
+        "url": "http://www.opensource.org/licenses/mit-license.php"
+    },
+    "repositories": "https://github.com/hkbarton/node-client-http.git",
+    "engines":{
+        "node": ">=0.6.11 <=0.7.0 || >=0.7.3"
+    },
+    "dependencies": {
+        "tunnel": ">=0.0.1"
+    }
+}
