@@ -1,7 +1,7 @@
 {
     "name": "client-http",
     "version": "0.0.1",
-    "description": "Node client HTTP request wrapper for easy to make client HTTP request",
+    "description": "Node client HTTP/HTTPS request wrapper for easy to make client HTTP/HTTPS request",
     "keywords": [
         "http",
         "https",
