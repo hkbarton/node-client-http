@@ -9,3 +9,6 @@
  - 0.0.3 (02/25/2013)
    - fix bug: can not request through non-standard http/https port, such as non 80 or non 443 port
    - enhancement: always return server response content, even if return status code is not 200
+
+ - 0.0.4 (02/25/2013)
+   - fix bug: emergency fix of version 0.0.3
