@@ -12,3 +12,6 @@
 
  - 0.0.4 (02/25/2013)
    - fix bug: emergency fix of version 0.0.3
+
+ - 0.0.5 (06/25/2013)
+   - enhancement: let you read response header in callback

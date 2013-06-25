@@ -38,6 +38,14 @@
         !err && console.log(cookie);
     });
 
+### Read header from response
+
+    var http = require('client-http');
+
+    http.get("http://www.google.com/", function(data, err, cookie, headers){
+        !err && console.log(headers);
+    });
+
 ### HTTP Post
 
     var http = require('client-http');
