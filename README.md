@@ -1,4 +1,4 @@
-# Easy to make HTTP/HTTPS request in node
+# Client HTTP/HTTPS request in node
 
 [![NPM version](https://badge.fury.io/js/client-http.png)](http://badge.fury.io/js/client-http)
 
