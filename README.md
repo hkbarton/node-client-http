@@ -2,7 +2,7 @@
 
 ## Feature List
 
-1. Automatic proxy setting, if you set the proxy in your environment variable(http_proxy), it will be auto detected and used in your any HTTP request, also it will be used in your HTTPS request by HTTPS Tunnel(denpency by node-tunnel) to make HTTPS request through HTTP.
+1. Automatic proxy setting, if you set the proxy in your environment variable(http_proxy), it will be auto detected and used in your any HTTP request, also it will be used in your HTTPS request by HTTPS Tunnel(denpency by node-tunnel) to make HTTPS request through HTTP. Optional, you can set proxy manually by call setProxy(proxy).
 
 2. Make your HTTP/HTTPS request with cookie, cookie will be automatic processed int any HTTP/HTTPS request and you can get the cookie value in response.
 
@@ -62,3 +62,12 @@
     http.request("http://twitter.com/", function(data){
         data && console.log(data);
     }, null, {"User-Agent": "iPhone"});
+
+### HTTP request with manually proxy set
+
+    var http = require('client-http');
+    
+    http.setProxy('http://127.0.0.1:8080');
+    http.get("https://www.google.com/", function(data){
+        data && console.log(data);
+    });

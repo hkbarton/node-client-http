@@ -15,3 +15,6 @@
 
  - 0.0.5 (06/25/2013)
    - enhancement: let you read response header in callback
+
+ - 0.0.6 (02/04/2014)
+   - enhancement: Allow set proxy manually by call setProxy 
