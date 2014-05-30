@@ -18,3 +18,6 @@
 
  - 0.0.6 (02/04/2014)
    - enhancement: Allow set proxy manually by call setProxy 
+ 
+ - 0.0.7 (05/30/2014)
+   - enhancement: Allow set timeout(in milliseconds) before make http request, default timeout is 1 minutes

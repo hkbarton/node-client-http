@@ -73,3 +73,12 @@
     http.get("https://www.google.com/", function(data){
         data && console.log(data);
     });
+
+### HTTP request with manually timeout set
+
+    var http = require('client-http');
+   
+    http.setTimeout(5000);
+    http.get("https://www.google.com/", function(data){
+        data && console.log(data);
+    });
