@@ -19,7 +19,6 @@
       "type":"git",
       "url":"https://github.com/hkbarton/node-client-http.git"
     },
-    "repositories": "https://github.com/hkbarton/node-client-http.git",
     "engines":{
         "node": ">=0.6.11 <=0.7.0 || >=0.7.3"
     },
