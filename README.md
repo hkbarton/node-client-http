@@ -6,9 +6,9 @@
 
 1. Automatic proxy setting, if you set the proxy in your environment variable(http_proxy), it will be auto detected and used in your any HTTP request, also it will be used in your HTTPS request by HTTPS Tunnel(depend on node-tunnel) to make HTTPS request through HTTP. Optional, you can set proxy manually by calling setProxy(proxy).
 
-2. Make your HTTP/HTTPS request with cookie, cookie will be automaticlly processed int any HTTP/HTTPS request and you can get cookie value in response.
+2. Make your HTTP/HTTPS request with cookie, cookie will be automatically processed int any HTTP/HTTPS request and you can get cookie value in response.
 
-3. HTTP redirect handling, HTTP redirect(301/302) will be automaticlly handled in you HTTP/HTTPS request.
+3. HTTP redirect handling, HTTP redirect(301/302) will be automatically handled in you HTTP/HTTPS request.
 
 ## Example
     
